@@ -28,7 +28,7 @@ try:
     menu_bar.send_keys(Keys.ENTER)
     time.sleep(10)
     # Logout Option Click
-    logout = chrome_browser.find_element_by_xpath('//*[@id="side"]/header/div[2]/div/span/div[3]/span/div[1]/ul/li[6]/div[1]')
+    logout = chrome_browser.find_element_by_xpath('//*[@id="side"]/header/div[2]/div/span/div[3]/span/div[1]/ul/li[5]')
     logout.send_keys(Keys.ENTER)
     time.sleep(5)
     print('Logout Successfully')
